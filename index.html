@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Prosta Strona</title>
+    <title>Zony Generator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
             text-align: center;
+            margin: 50px;
         }
         h1 {
             color: #333;
         }
-        p {
-            color: #666;
+        #generator-form {
+            margin-top: 20px;
+        }
+        #generated-nick {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #009688;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Witaj na Mojej Prostej Stronie!</h1>
-    </header>
-    <main>
-        <p>To jest prosty przykład strony internetowej stworzonej w HTML.</p>
-        <p>Zapraszam do eksploracji!</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Moja Prosta Strona. Wszelkie prawa zastrzeżone.</p>
-    </footer>
+    <h1>Generator Nicków</h1>
+    <form id="generator-form">
+        <label for="input-name">Wprowadź swoje imię:</label>
+        <input type="text" id="input-name" name="input-name" required>
+        <br>
+        <label for="input-word">Dodatkowe słowo:</label>
+        <input type="text" id="input-word" name="input-word" required>
+        <br>
+        <button type="button" onclick="generateNick()">Generuj Nick</button>
+    </form>
+    <div id="generated-nick"></div>
+
+    <script>
+        function generateNick() {
+            var inputName = document.getElementById("input-name").value;
+            var inputWord = document.getElementById("input-word").value;
+            var generatedNick = "Twój pseudonim: " + inputName + inputWord;
+            document.getElementById("generated-nick").innerHTML = generatedNick;
+        }
+    </script>
 </body>
 </html>

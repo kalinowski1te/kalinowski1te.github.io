@@ -17,7 +17,7 @@ h1 {
 p {
   font-family: verdana;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 ul {
@@ -38,13 +38,30 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  font-family: "Arial Narrow";
+  text-align: center;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Arial Narrow";
+  text-align: center;
+  font-size: 20px;
+}
+
 div.container {
   text-align: center;
 }
 
 ul.zajecia {
   display: inline-block;
-  text-align: left;
+  text-align: center;
+}
+
+ul.linki {
+  display: inline-block;
+  text-align: center;
 }
 
 .center {

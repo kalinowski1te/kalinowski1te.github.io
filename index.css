@@ -107,6 +107,21 @@ button:active {
  transform: translateY(0);
 }
 
+.container{
+    width: 100%;
+    float: left;
+    border: solid 1px blue;
+    text-align: center;
+}
+.container button{
+    display: inline-block;
+}
+#btn1{
+    float:left;
+}
+#btn3{
+    float:right;
+}
 .center {
 display: block;
 margin-left: auto;

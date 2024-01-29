@@ -12,34 +12,35 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 900;
   text-align: center;
-  font-size: 14px;
+  font-size: 30px;
   letter-spacing: 1.57px;
   color: #00BFFF;
 }
 
 p {
-  font-family: verdana;
+  font-family: sans-serif;
   text-align: center;
   font-size: 15px;
 }
 
 ul {
-  font-family: verdana;
+  font-family: sans-serif;
   text-align: center;
   font-size: 20px;
 }
 
 li {
-  font-family: verdana;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
   text-align: center;
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1.57px;
 }
 
 h3 {

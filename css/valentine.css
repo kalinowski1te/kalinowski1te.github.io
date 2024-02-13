@@ -16,19 +16,22 @@ img {
   font-size: 50px;
   margin-bottom: 10px;
 }
-.answerButton {
-  padding: 10px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  margin: 10px;
-  font-family: "courier";
-  margin-bottom: 20px;
-  background-color: #ffe3e1;
+
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px #ff9494;
   color: #e67373;
-  border-radius: 12px;
-  border: 2px solid #ffe3e1;
-  box-shadow: 1px 1px 2px #ff9494;
-  transition: 0.3s;
+  background: #ffe3e1;
+  cursor: pointer;
 }
 
 .answerButton:hover {
